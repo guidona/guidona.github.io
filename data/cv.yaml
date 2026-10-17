@@ -66,11 +66,11 @@ projects:
       commands, a managed zsh setup, a right-click menu on files in the output, and a pane that
       shows Markdown, images and PDFs next to the shell.
     stack: [Rust, Electron, xterm.js, zsh]
-  - name: Ngay
+  - name: Ngai
     dates: 2018
     url: https://github.com/guidona/ngai-game
     summary: >-
-      The traditional Tupuri game Ngay, a sowing game related to awalé, played on two rows of five
+      The traditional Tupuri game Ngai, a sowing game related to awalé, played on two rows of five
       holes. A two-player terminal version with simple and cumulative captures, started for an
       artificial intelligence course, with a write-up of the rules (in French).
     stack: [Python]
