@@ -8,6 +8,51 @@ summary: >-
   designed for scale, resilience and security. I'm moving toward technology leadership, turning
   business needs into technical roadmaps and helping teams deliver with Agile and DevOps.
 
+# The hero headline, one line each; a line starting with "&" is set in italic serif.
+headline: [Software, "& backend", Engineer]
+tagline: >-
+  Backend systems that have to stay up, for telecommunications and fintech.
+# Image in assets/images/. Swap the file to change the photo; any size, a portrait crop works best.
+portrait: images/portrait.jpg
+badge: Based in Montreal · Backend engineer ·
+
+# Figures in the hero, next to the photo.
+stats:
+  - value: 7+
+    label: Years building software
+  - value: "3"
+    label: Companies, two continents
+  - value: 2×
+    label: First in class
+  - value: "3"
+    label: Languages spoken
+
+# The strip under the hero: what I do.
+services:
+  - title: Microservices
+    text: Mission-critical backend services designed for high availability on Kubernetes.
+  - title: Payments & APIs
+    text: REST APIs that make payment providers and other systems talk to each other.
+  - title: Cloud & DevOps
+    text: Containers, CI/CD and deployments that are repeatable and boring, in a good way.
+  - title: Technical leadership
+    text: Turning business needs into roadmaps and helping teams ship with Agile.
+
+# Shown as plain names, no logos.
+worked_with: [Ericsson, ISCI inc., Sprint-Pay, Huawei Seeds for the Future, UNOPS Global Innovation Centre, BLCU Beijing]
+
+about:
+  heading: Building systems that stay up
+  lead: >-
+    Hey, I'm Guy, a software engineer in Montreal who builds the backend services other systems
+    depend on.
+  text: >-
+    I've spent the last seven years on systems where downtime is not an option: a core payment API
+    in Cameroon, a national examination platform, and now telecommunications microservices at
+    Ericsson. I care about designs that scale, fail gracefully and pass a security review, and I'm
+    moving toward technology leadership: shaping roadmaps with product owners and helping teams
+    deliver.
+
 links:
   - label: Email
     text: mguidona@gmail.com
@@ -58,8 +103,11 @@ experience:
         on Docker and Kubernetes, centralizing and modernizing its operations.
 
 # A project without a url is shown without a link (for example while its repository is private).
+# image is in assets/images/; kind is the short label under the name.
 projects:
   - name: tk
+    kind: Linux terminal
+    image: images/tk.png
     dates: 2026
     summary: >-
       A personal terminal for Linux that you install once and use everywhere. It bundles everyday
@@ -67,6 +115,8 @@ projects:
       shows Markdown, images and PDFs next to the shell.
     stack: [Rust, Electron, xterm.js, zsh]
   - name: Ngai
+    kind: Browser game
+    image: images/ngai.jpg
     dates: 2018, 2026
     url: https://guidona.github.io/ngai-game/
     summary: >-
@@ -85,6 +135,7 @@ education:
     note: First in class
     org: National Advanced School of Engineering of Maroua
     place: Cameroon
+    dates: 2014 – 2017
   - title: Seeds for the Future Program
     org: Huawei Technologies
     place: Shenzhen, China
