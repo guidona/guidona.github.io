@@ -1,4 +1,4 @@
-baseURL = 'https://guidona.github.io/portfolio/'
+baseURL = 'https://guidona.github.io/'
 locale = 'en'
 title = 'Guy Mberebe Guidona'
 disableKinds = ['taxonomy', 'term', 'section', 'RSS', 'sitemap']

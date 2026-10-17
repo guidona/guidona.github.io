@@ -57,6 +57,24 @@ experience:
       - Architected and deployed a web and desktop platform for the national examination body (OBC)
         on Docker and Kubernetes, centralizing and modernizing its operations.
 
+# A project without a url is shown without a link (for example while its repository is private).
+projects:
+  - name: tk
+    dates: 2026
+    summary: >-
+      A personal terminal for Linux that you install once and use everywhere. It bundles everyday
+      commands, a managed zsh setup, a right-click menu on files in the output, and a pane that
+      shows Markdown, images and PDFs next to the shell.
+    stack: [Rust, Electron, xterm.js, zsh]
+  - name: Ngay
+    dates: 2018
+    url: https://github.com/guidona/Ngay-game
+    summary: >-
+      The traditional Tupuri game Ngay, a sowing game related to awalé, played on two rows of five
+      holes with 50 seeds. Built for an artificial intelligence course, with a computer opponent and
+      a written analysis of the rules (in French).
+    stack: [Python, Game AI]
+
 education:
   - title: Master of Engineering in Software Engineering
     note: First in class

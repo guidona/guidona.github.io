@@ -32,6 +32,22 @@
     </ol>
   </section>
 
+  <section aria-labelledby="projects">
+    <h2 id="projects">Projects</h2>
+    <ul class="projects">
+      {{ range $cv.projects }}
+      <li class="project">
+        <div class="project-head">
+          <h3>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</h3>
+          <p class="when">{{ .dates }}</p>
+        </div>
+        <p>{{ .summary }}</p>
+        <ul class="tags">{{ range .stack }}<li>{{ . }}</li>{{ end }}</ul>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
   <section aria-labelledby="skills">
     <h2 id="skills">Skills</h2>
     <dl class="skills">
