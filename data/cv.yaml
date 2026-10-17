@@ -68,7 +68,7 @@ projects:
     stack: [Rust, Electron, xterm.js, zsh]
   - name: Ngay
     dates: 2018
-    url: https://github.com/guidona/Ngay-game
+    url: https://github.com/guidona/ngai-game
     summary: >-
       The traditional Tupuri game Ngay, a sowing game related to awalé, played on two rows of five
       holes. A two-player terminal version with simple and cumulative captures, started for an
