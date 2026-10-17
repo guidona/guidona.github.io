@@ -67,13 +67,13 @@ projects:
       shows Markdown, images and PDFs next to the shell.
     stack: [Rust, Electron, xterm.js, zsh]
   - name: Ngai
-    dates: 2018
+    dates: 2018, 2026
     url: https://github.com/guidona/ngai-game
     summary: >-
-      The traditional Tupuri game Ngai, a sowing game related to awalé, played on two rows of five
-      holes. A two-player terminal version with simple and cumulative captures, started for an
-      artificial intelligence course, with a write-up of the rules (in French).
-    stack: [Python]
+      The traditional Tupuri game Ngai, a sowing game related to awalé. I'm writing down its rules
+      with people who play it and turning them into a terminal game, with a computer opponent that
+      looks up to ten moves ahead. Started for an AI course in 2018, documented in French.
+    stack: [Python, Minimax, Alpha-beta pruning]
 
 education:
   - title: Master of Engineering in Software Engineering
