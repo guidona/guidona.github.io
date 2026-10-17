@@ -68,12 +68,12 @@ projects:
     stack: [Rust, Electron, xterm.js, zsh]
   - name: Ngai
     dates: 2018, 2026
-    url: https://github.com/guidona/ngai-game
+    url: https://guidona.github.io/ngai-game/
     summary: >-
-      The traditional Tupuri game Ngai, a sowing game related to awalé. I'm writing down its rules
-      with people who play it and turning them into a terminal game, with a computer opponent that
-      looks up to ten moves ahead. Started for an AI course in 2018, documented in French.
-    stack: [Python, Minimax, Alpha-beta pruning]
+      The traditional Tupuri game Ngai, a sowing game related to awalé, playable in the browser
+      against a computer opponent that looks up to ten moves ahead. I'm writing down its rules and
+      turning them into a game. Started for an AI course in 2018, documented in French.
+    stack: [JavaScript, Python, Minimax, Alpha-beta pruning]
 
 education:
   - title: Master of Engineering in Software Engineering
