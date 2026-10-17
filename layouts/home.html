@@ -1,0 +1,91 @@
+{{ define "main" }}
+{{ $cv := hugo.Data.cv }}
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">{{ $cv.role }} · {{ $cv.location }}</p>
+    <h1>{{ $cv.name }}</h1>
+    <p class="summary">{{ $cv.summary }}</p>
+    <ul class="links">
+      {{ range $cv.links }}
+      <li><a href="{{ .url }}"{{ if hasPrefix .url "http" }} rel="me"{{ end }}><span>{{ .label }}</span>{{ .text }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+</header>
+
+<main class="wrap">
+  <section aria-labelledby="experience">
+    <h2 id="experience">Experience</h2>
+    <ol class="timeline">
+      {{ range $cv.experience }}
+      <li class="entry">
+        <p class="when">{{ .dates }}</p>
+        <div>
+          <h3>{{ .title }}</h3>
+          <p class="where"><strong>{{ .org }}</strong> · {{ .place }}</p>
+          <ul class="points">
+            {{ range .points }}<li>{{ . }}</li>{{ end }}
+          </ul>
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  <section aria-labelledby="skills">
+    <h2 id="skills">Skills</h2>
+    <dl class="skills">
+      {{ range $cv.skills }}
+      <div>
+        <dt>{{ .group }}</dt>
+        <dd><ul class="tags">{{ range .items }}<li>{{ . }}</li>{{ end }}</ul></dd>
+      </div>
+      {{ end }}
+      <div>
+        <dt>Languages</dt>
+        <dd><ul class="tags">{{ range $cv.languages }}<li>{{ .name }} <small>{{ .level }}</small></li>{{ end }}</ul></dd>
+      </div>
+    </dl>
+  </section>
+
+  <section aria-labelledby="education">
+    <h2 id="education">Education</h2>
+    <ol class="timeline">
+      {{ range $cv.education }}
+      <li class="entry">
+        <p class="when">{{ .dates }}</p>
+        <div>
+          <h3>{{ .title }}{{ with .note }} <span class="badge">{{ . }}</span>{{ end }}</h3>
+          <p class="where"><strong>{{ .org }}</strong> · {{ .place }}</p>
+        </div>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+
+  <div class="columns">
+    <section aria-labelledby="awards">
+      <h2 id="awards">Awards</h2>
+      <ul class="plain">
+        {{ range $cv.awards }}
+        <li><h3>{{ .title }}</h3><p class="where">{{ .org }} · {{ .dates }}</p></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section aria-labelledby="community">
+      <h2 id="community">Community</h2>
+      <ul class="plain">
+        {{ range $cv.community }}
+        <li><h3>{{ .title }}</h3><p class="where">{{ .org }}{{ with .place }} · {{ . }}{{ end }}</p></li>
+        {{ end }}
+      </ul>
+    </section>
+  </div>
+</main>
+
+<footer class="wrap footer">
+  <p>Away from the keyboard: {{ delimit (apply $cv.interests "lower" ".") ", " " and " }}.</p>
+  <p>{{ range $i, $l := $cv.links }}{{ if $i }} · {{ end }}<a href="{{ $l.url }}">{{ $l.label }}</a>{{ end }}</p>
+</footer>
+{{ end }}

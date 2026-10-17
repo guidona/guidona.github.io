@@ -1,4 +1,7 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'ananke'
+baseURL = 'https://guidona.github.io/portfolio/'
+locale = 'en'
+title = 'Guy Mberebe Guidona'
+disableKinds = ['taxonomy', 'term', 'section', 'RSS', 'sitemap']
+
+[params]
+description = 'Guy Mberebe Guidona, software engineer in Montreal. Backend microservices for telecommunications and fintech.'

@@ -1,0 +1,120 @@
+# Everything the site shows. Edit this file to update the site; the layout reads it as-is.
+
+name: Guy Mberebe Guidona
+role: Software Engineer
+location: Montreal, Canada
+summary: >-
+  I build backend systems that have to stay up: microservices for telecommunications and fintech,
+  designed for scale, resilience and security. I'm moving toward technology leadership, turning
+  business needs into technical roadmaps and helping teams deliver with Agile and DevOps.
+
+links:
+  - label: Email
+    text: mguidona@gmail.com
+    url: mailto:mguidona@gmail.com
+  - label: LinkedIn
+    text: in/guy-guidona
+    url: https://linkedin.com/in/guy-guidona
+  - label: GitHub
+    text: guidona
+    url: https://github.com/guidona
+
+experience:
+  - title: Software Developer
+    org: Ericsson Canada
+    place: Saint-Laurent, Montreal
+    dates: Oct 2023 – present
+    points:
+      - Designed and implemented mission-critical backend microservices for a distributed
+        telecommunications product, meeting high-availability requirements on Kubernetes.
+      - Responsible for the product's scalability and resiliency, and for meeting strict industry
+        security standards through robust design and testing.
+      - Worked with Product Owners to define requirements as user stories, shaping the technical
+        direction to meet changing market needs.
+      - Owned features end to end, from design and automated testing to deployment.
+
+  - title: Senior Software Development Consultant
+    org: ISCI inc.
+    place: Montreal, Canada
+    dates: Oct 2022 – Sep 2023
+    points:
+      - Led software development across the stack using Agile methods and DevOps practices.
+      - Developed, tested, debugged and deployed several platforms and their management consoles.
+      - Proposed and assessed new technologies for the platform with product managers.
+      - Containerized applications and managed their deployment.
+      - Oversaw source code management and tracked work through Scrum sprints.
+      - Managed service contracts with external providers to keep integrations running.
+
+  - title: Software Developer
+    org: Sprint-Pay Cameroon SA
+    place: Yaoundé, Cameroon
+    dates: Nov 2019 – Oct 2022
+    points:
+      - Led the development of a core payment API that solved interoperability between systems,
+        integrating several external payment providers over REST.
+      - Improved quality and stability by finding recurring issues and writing standard operating
+        procedures, reducing post-deployment errors.
+      - Architected and deployed a web and desktop platform for the national examination body (OBC)
+        on Docker and Kubernetes, centralizing and modernizing its operations.
+
+education:
+  - title: Master of Engineering in Software Engineering
+    note: First in class
+    org: National Advanced School of Engineering of Maroua
+    place: Cameroon
+    dates: 2017 – 2019
+  - title: Bachelor of Engineering in Computer Science and Telecommunications
+    note: First in class
+    org: National Advanced School of Engineering of Maroua
+    place: Cameroon
+  - title: Seeds for the Future Program
+    org: Huawei Technologies
+    place: Shenzhen, China
+    dates: 2018
+  - title: Chinese Language & Culture Experience Program
+    org: Beijing Language and Culture University
+    place: Beijing, China
+    dates: 2018
+
+skills:
+  - group: Leadership & methodology
+    items: [Agile / Scrum, DevOps transformation, Cross-functional collaboration, Vendor management, Technical roadmapping, Project lifecycle management]
+  - group: Architecture & backend
+    items: [Microservices, REST API design, Distributed systems, Scalability, Resiliency, Java, Spring Boot, Python, Django]
+  - group: Cloud & infrastructure
+    items: [Docker, Kubernetes, CI/CD (Jenkins), Cloud deployment]
+  - group: Data
+    items: [PostgreSQL, MySQL]
+  - group: Operating systems
+    items: [Ubuntu, Debian, Linux, Windows]
+
+languages:
+  - name: English
+    level: C2
+  - name: French
+    level: C2
+  - name: Fulah
+    level: B2
+
+awards:
+  - title: Huawei Seeds for the Future
+    org: Huawei Technologies
+    dates: "2018"
+  - title: Best Result Award, GCE Advanced Level
+    org: Les Brasseries du Cameroun
+    dates: "2014"
+  - title: Best Result Award, GCE Ordinary Level
+    org: Les Brasseries du Cameroun
+    dates: "2012"
+
+community:
+  - title: Co-founder & Vice President
+    org: Action for Education and Peace
+    place: Maroua, Cameroon
+  - title: Global Challenge alumnus
+    org: UNOPS Global Innovation Centre
+    place: Lund, Sweden
+  - title: Seeds for the Future alumnus
+    org: Huawei Technologies
+
+interests: [Football, Jogging, Rowing]
