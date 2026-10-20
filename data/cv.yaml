@@ -114,6 +114,17 @@ projects:
       commands, a managed zsh setup, a right-click menu on files in the output, and a pane that
       shows Markdown, images and PDFs next to the shell.
     stack: [Rust, Electron, xterm.js, zsh]
+  - name: The Systems Journal
+    kind: Daily newsletter
+    image: images/newsletter.jpg
+    dates: 2026
+    summary: >-
+      A newspaper I get by email every morning on distributed systems, production engineering,
+      Linux, protocols, security and quantum computing. Gemini searches the web for each section,
+      and the pipeline keeps only stories whose links come from the search results, reads each
+      article to write its summary, and tags how ready each subject is for production. Runs on
+      GitHub Actions.
+    stack: [Python, Gemini API, GitHub Actions, Jinja2]
   - name: Ngai
     kind: Browser game
     image: images/ngai.jpg
